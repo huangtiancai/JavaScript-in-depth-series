@@ -12,9 +12,9 @@ console.log(person.name) // Kevin
 
 很简单吧，接下来进入正题：
 
-prototype
+# prototype
 每个函数都有一个 prototype 属性，就是我们经常在各种例子中看到的那个 prototype ，比如：
-
+```
 function Person() {
 
 }
@@ -25,6 +25,7 @@ var person1 = new Person();
 var person2 = new Person();
 console.log(person1.name) // Kevin
 console.log(person2.name) // Kevin
+```
 那这个函数的 prototype 属性到底指向的是什么呢？是这个函数的原型吗？
 
 其实，函数的 prototype 属性指向了一个对象，这个对象正是调用该构造函数而创建的实例的原型，也就是这个例子中的 person1 和 person2 的原型。
