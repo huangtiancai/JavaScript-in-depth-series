@@ -34,7 +34,7 @@ console.log(person2.name) // Kevin
 
 让我们用一张图表示构造函数和实例原型之间的关系：
 
-![构造函数和实例原型的关系图]()
+![构造函数和实例原型的关系图](https://github.com/huangtiancai/JavaScript-in-depth-series/blob/master/JavaScript%E6%B7%B1%E5%85%A5%E4%B9%8B%E4%BB%8E%E5%8E%9F%E5%9E%8B%E5%88%B0%E5%8E%9F%E5%9E%8B%E9%93%BE/Images/prototype1.png)
 
 在这张图中我们用 Object.prototype 表示实例原型。
 
