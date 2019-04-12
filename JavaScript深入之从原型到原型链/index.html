@@ -36,15 +36,28 @@
         //实例person和实例原型的Person.prototype之间的联系？引出第二个属性 __proto__
         //JavaScript对象(除了 null )的一个属性：__proto__  指向该对象的原型
         
-        function Person(){
+        // function Person(){
 
-        }
-        var person = new Person();
-        console.log(person.__proto__);//Object
-        console.log(Person.prototype);//Object
-        console.log(person.__proto__ == Person.prototype);//true
+        // }
+        // var person = new Person();
+        // console.log(person.__proto__);//Object
+        // console.log(Person.prototype);//Object
+        // console.log(person.__proto__ == Person.prototype);//true
 
         //3.constructor:
+        //实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
+        //指向实例倒是没有,原型指向构造函数倒是有的--->引出第三个属性:constructor
+        //第三个属性：constructor，每个原型都有一个 constructor 属性指向关联的构造函数
+        
+        //验证
+        function Person(){       
+        }
+        console.log(Person);//f Person(){}
+        console.log(Person.prototype.constructor);//f Person(){}
+        console.log(Person==Person.prototype.constructor);//true
+
+        
+
         
 
     </script>
