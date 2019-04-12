@@ -33,7 +33,6 @@ console.log(person2.name) // Kevin
 那什么是原型呢？你可以这样理解：每一个JavaScript对象(null除外)在创建的时候就会与之关联另一个对象，这个对象就是我们所说的原型，每一个对象都会从原型"继承"属性。
 
 让我们用一张图表示构造函数和实例原型之间的关系：
- ![测试](https://raw.githubusercontent.com/huangtiancai/picBed/master/%E7%AC%A6%E5%8F%B7.jpg?totoken=AkyxgRY-URsBY6vgfcf17fNMnZDl6rwoks5cr_xrwA%3D%3D)
 
 
 在这张图中我们用 Object.prototype 表示实例原型。
