@@ -64,7 +64,6 @@ function Person() {
 console.log(Person === Person.prototype.constructor); // true
 所以再更新下关系图：
 
-实例原型与构造函数的关系图
 
 综上我们已经得出：
 
