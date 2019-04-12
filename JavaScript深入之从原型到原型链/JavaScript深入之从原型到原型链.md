@@ -1,4 +1,4 @@
-# 构造函数创建对象
+## 构造函数创建对象
 我们先使用构造函数创建一个对象：
 ```
 function Person() {
@@ -12,7 +12,7 @@ console.log(person.name) // Kevin
 
 很简单吧，接下来进入正题：
 
-# prototype
+## prototype
 每个函数都有一个 prototype 属性，就是我们经常在各种例子中看到的那个 prototype ，比如：
 ```
 function Person() {
@@ -39,7 +39,7 @@ console.log(person2.name) // Kevin
 
 那么我们该怎么表示实例与实例原型，也就是 person 和 Person.prototype 之间的关系呢，这时候我们就要讲到第二个属性：
 
-__proto__
+## __proto__
 这是每一个JavaScript对象(除了 null )都具有的一个属性，叫__proto__，这个属性会指向该对象的原型。
 
 为了证明这一点,我们可以在火狐或者谷歌中输入：
