@@ -51,8 +51,6 @@ var person = new Person();
 console.log(person.__proto__ === Person.prototype); // true
 于是我们更新下关系图：
 
-实例与实例原型的关系图
-
 既然实例对象和构造函数都可以指向原型，那么原型是否有属性指向构造函数或者实例呢？
 
 constructor
